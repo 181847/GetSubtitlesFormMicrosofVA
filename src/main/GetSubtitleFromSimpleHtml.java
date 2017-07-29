@@ -19,7 +19,8 @@ import java.util.regex.Matcher;
  * 你需要将这个新创建的“*.srt”文件放到指定的文件夹中
  * （本程序的默认文件夹在sourceFolderPath中定义了），
  * 运行程序，
- * 会自动在sourceFolderPath文件夹中创建一个名为“output”的子文件夹，
+ * 然后这个文件夹中所有以".srt"结尾的文件都会被处理，
+ * 并且自动在sourceFolderPath文件夹中创建一个名为“output”的子文件夹，
  * 所有被处理过的文件都会在这个“output”文件夹中，
  * 名字不会改变。
  */
