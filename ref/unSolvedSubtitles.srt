@@ -1,0 +1,1590 @@
+<ul data-bind="foreach: transcriptData">
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:00:05</span>
+                            <span class="textContent td" data-bind="text: textContent">&lt;v -&gt;大家好，我是 Bob Tabor，在这个超过 75 个视频&lt;/v&gt;</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:00:07</span>
+                            <span class="textContent td" data-bind="text: textContent">的视频系列中，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:00:09</span>
+                            <span class="textContent td" data-bind="text: textContent">我将演示如何构建可以在</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:00:10</span>
+                            <span class="textContent td" data-bind="text: textContent">Windows 应用商店出售或免费下载的应用程序，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:00:16</span>
+                            <span class="textContent td" data-bind="text: textContent">这些应用程序针对 Windows 桌面、手机</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:00:18</span>
+                            <span class="textContent td" data-bind="text: textContent">或只要能够使用“通用 Windows 平台”应用程序的地方，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:00:21</span>
+                            <span class="textContent td" data-bind="text: textContent">其中不久就会包括像 Xbox One、</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:00:25</span>
+                            <span class="textContent td" data-bind="text: textContent">Microsoft Hub 甚至 HoloLens 这样的设备。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:00:29</span>
+                            <span class="textContent td" data-bind="text: textContent">我说到“通用 Windows 平台”，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:00:32</span>
+                            <span class="textContent td" data-bind="text: textContent">它描述的是可以用来构建在</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:00:35</span>
+                            <span class="textContent td" data-bind="text: textContent">所有新的 Windows 设备上普遍</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:00:38</span>
+                            <span class="textContent td" data-bind="text: textContent">运行的应用程序的工具和 API。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:00:40</span>
+                            <span class="textContent td" data-bind="text: textContent">其优点在于，你只要写一个应用程序，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:00:44</span>
+                            <span class="textContent td" data-bind="text: textContent">它在多种不同的屏幕分辨率</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:00:48</span>
+                            <span class="textContent td" data-bind="text: textContent">和设备外形规格上都适用。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:00:50</span>
+                            <span class="textContent td" data-bind="text: textContent">而实际上那是我准备在此课程系列中</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:00:53</span>
+                            <span class="textContent td" data-bind="text: textContent">谈论和演示的最重要</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:00:55</span>
+                            <span class="textContent td" data-bind="text: textContent">事情之一。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:00:57</span>
+                            <span class="textContent td" data-bind="text: textContent">本系列针对</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:01</span>
+                            <span class="textContent td" data-bind="text: textContent">绝对的初学者。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:03</span>
+                            <span class="textContent td" data-bind="text: textContent">话虽如此，你还是应当多少熟悉点</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:06</span>
+                            <span class="textContent td" data-bind="text: textContent">C# 和 Visual Studio。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:08</span>
+                            <span class="textContent td" data-bind="text: textContent">同时，我还希望你在观看本视频前，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:11</span>
+                            <span class="textContent td" data-bind="text: textContent">已经看过或至少理解了</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:15</span>
+                            <span class="textContent td" data-bind="text: textContent">我在九频道的 Microsoft Virtual Academy 上</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:19</span>
+                            <span class="textContent td" data-bind="text: textContent">《C# 基础知识从头学》系列中</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:22</span>
+                            <span class="textContent td" data-bind="text: textContent">讨论的所有概念。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:24</span>
+                            <span class="textContent td" data-bind="text: textContent">你可以从屏幕上的这个 URL 上找到此系列课。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:28</span>
+                            <span class="textContent td" data-bind="text: textContent">如果你已经是一个有经验的开发人员，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:31</span>
+                            <span class="textContent td" data-bind="text: textContent">那么坦率地讲，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:34</span>
+                            <span class="textContent td" data-bind="text: textContent">你可能觉得这门课讲得太慢了。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:37</span>
+                            <span class="textContent td" data-bind="text: textContent">我们这样做是有原因的。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:39</span>
+                            <span class="textContent td" data-bind="text: textContent">如果你感到不满足的话，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:41</span>
+                            <span class="textContent td" data-bind="text: textContent">有一些其他更好的资源，你不妨去看看。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:43</span>
+                            <span class="textContent td" data-bind="text: textContent">我建议你去看看 Andy Wigley 和 Shen Chauhan</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:47</span>
+                            <span class="textContent td" data-bind="text: textContent">的系列课程，名称为</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:50</span>
+                            <span class="textContent td" data-bind="text: textContent">《Windows 10 开发人员指南》。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:54</span>
+                            <span class="textContent td" data-bind="text: textContent">内容很实用，讲得很精彩。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:56</span>
+                            <span class="textContent td" data-bind="text: textContent">如果你是有经验的开发人员，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:01:57</span>
+                            <span class="textContent td" data-bind="text: textContent">则我建议你从那里开始。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:02:00</span>
+                            <span class="textContent td" data-bind="text: textContent">这是我制作的这个</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:02:04</span>
+                            <span class="textContent td" data-bind="text: textContent">特殊视频系列的第四个版本。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:02:06</span>
+                            <span class="textContent td" data-bind="text: textContent">一开始是在大约 2009 和 2010 年，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:02:09</span>
+                            <span class="textContent td" data-bind="text: textContent">在 Windows Phone 7 上。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:02:11</span>
+                            <span class="textContent td" data-bind="text: textContent">每次我发布该系列的一个版本时，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:02:14</span>
+                            <span class="textContent td" data-bind="text: textContent">都会重复问几个问题。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:02:17</span>
+                            <span class="textContent td" data-bind="text: textContent">我想先来回答这几个问题，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:02:19</span>
+                            <span class="textContent td" data-bind="text: textContent">免得大家产生误解。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:02:24</span>
+                            <span class="textContent td" data-bind="text: textContent">首先，必须使用 Windows 10</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:02:28</span>
+                            <span class="textContent td" data-bind="text: textContent">构建 Windows 10 应用程序，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:02:31</span>
+                            <span class="textContent td" data-bind="text: textContent">构建通用 Windows 平台应用程序。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:02:33</span>
+                            <span class="textContent td" data-bind="text: textContent">不能使用 Windows 8.1、Windows 8、</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:02:37</span>
+                            <span class="textContent td" data-bind="text: textContent">Windows 7 或 Windows XP。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:02:40</span>
+                            <span class="textContent td" data-bind="text: textContent">总之，必须使用 Windows 10。那是第一点。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:02:44</span>
+                            <span class="textContent td" data-bind="text: textContent">第二，必须使用 Visual Studio 2015。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:02:45</span>
+                            <span class="textContent td" data-bind="text: textContent">我建议你使用</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:02:47</span>
+                            <span class="textContent td" data-bind="text: textContent">Visual Studio 2015 Community Edition，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:02:50</span>
+                            <span class="textContent td" data-bind="text: textContent">那是一个免费版，具有专业版本的所有功能，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:02:54</span>
+                            <span class="textContent td" data-bind="text: textContent">不过它是针对</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:02:57</span>
+                            <span class="textContent td" data-bind="text: textContent">学习或创建基于社区项目的个人的。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:03:02</span>
+                            <span class="textContent td" data-bind="text: textContent">坦率讲，你可以使用 Visual Studio 的其他版本，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:03:05</span>
+                            <span class="textContent td" data-bind="text: textContent">但早前版本除外。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:03:09</span>
+                            <span class="textContent td" data-bind="text: textContent">必须使用 2015 版本来</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:03:11</span>
+                            <span class="textContent td" data-bind="text: textContent">构建通用 Windows 平台应用程序。这是第二点。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:03:13</span>
+                            <span class="textContent td" data-bind="text: textContent">第三，你会看到我使用手机仿真器</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:03:20</span>
+                            <span class="textContent td" data-bind="text: textContent">来偶尔运行和测试我的应用程序。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:03:22</span>
+                            <span class="textContent td" data-bind="text: textContent">该手机仿真器像一个运行在我的屏幕上的小手机，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:03:25</span>
+                            <span class="textContent td" data-bind="text: textContent">在右边有一个小菜单。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:03:27</span>
+                            <span class="textContent td" data-bind="text: textContent">实际上，它在运行一个称为 Hyper-V 的软件，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:03:31</span>
+                            <span class="textContent td" data-bind="text: textContent">该软件是一个用来在你的桌面上</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:03:35</span>
+                            <span class="textContent td" data-bind="text: textContent">运行虚拟机的平台。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:03:37</span>
+                            <span class="textContent td" data-bind="text: textContent">它在一个看起来像手机的</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:03:41</span>
+                            <span class="textContent td" data-bind="text: textContent">小虚拟机中运行 Windows Phone 10 操作系统。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:03:43</span>
+                            <span class="textContent td" data-bind="text: textContent">你可能需要具有特殊的硬件</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:03:46</span>
+                            <span class="textContent td" data-bind="text: textContent">才能运行手机仿真器。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:03:47</span>
+                            <span class="textContent td" data-bind="text: textContent">具体说来就是，你的母板和芯片</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:03:52</span>
+                            <span class="textContent td" data-bind="text: textContent">必须支持叫做 SLAT</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:03:55</span>
+                            <span class="textContent td" data-bind="text: textContent">（全称“第二级地址转换”）的技术。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:03:57</span>
+                            <span class="textContent td" data-bind="text: textContent">现在，大多数新式母板都支持这项技术，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:01</span>
+                            <span class="textContent td" data-bind="text: textContent">不过并非所有母板和芯片都支持。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:05</span>
+                            <span class="textContent td" data-bind="text: textContent">遗憾的是，我在这方面可能帮不了你，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:09</span>
+                            <span class="textContent td" data-bind="text: textContent">因为我对它也知之甚少。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:12</span>
+                            <span class="textContent td" data-bind="text: textContent">如果你在安装 Visual Studio 2015 过程中</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:16</span>
+                            <span class="textContent td" data-bind="text: textContent">遇到错误，可以搜索 Microsoft 论坛寻求帮助，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:19</span>
+                            <span class="textContent td" data-bind="text: textContent">同样地，我也无法帮助你。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:22</span>
+                            <span class="textContent td" data-bind="text: textContent">我也曾试过去帮助别人，不过说句老实话，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:25</span>
+                            <span class="textContent td" data-bind="text: textContent">我可能并不比他们更在行。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:27</span>
+                            <span class="textContent td" data-bind="text: textContent">如果你无法让仿真器</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:29</span>
+                            <span class="textContent td" data-bind="text: textContent">在本地机器上运行，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:32</span>
+                            <span class="textContent td" data-bind="text: textContent">最坏的情形就是你可能需要将</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:36</span>
+                            <span class="textContent td" data-bind="text: textContent">应用程序部署到运行</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:38</span>
+                            <span class="textContent td" data-bind="text: textContent">Windows Phone 10 完全版或 beta 版的物理手机设备上</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:40</span>
+                            <span class="textContent td" data-bind="text: textContent">来进行测试。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:45</span>
+                            <span class="textContent td" data-bind="text: textContent">做法很简单，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:46</span>
+                            <span class="textContent td" data-bind="text: textContent">不过在本视频系列中</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:47</span>
+                            <span class="textContent td" data-bind="text: textContent">我就不演示了。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:49</span>
+                            <span class="textContent td" data-bind="text: textContent">网络上有这方面的文章告诉你怎样去做。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:51</span>
+                            <span class="textContent td" data-bind="text: textContent">好，如果这些都没问题了，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:54</span>
+                            <span class="textContent td" data-bind="text: textContent">那么第四点就是，你需要</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:56</span>
+                            <span class="textContent td" data-bind="text: textContent">启用开发人员模式。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:04:57</span>
+                            <span class="textContent td" data-bind="text: textContent">具体方法就是打开</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:01</span>
+                            <span class="textContent td" data-bind="text: textContent">Windows 10 中的“设置”，转至“更新和安全”(Update &amp; Security)，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:05</span>
+                            <span class="textContent td" data-bind="text: textContent">然后在左侧选择“针对开发人员”(For Developers)，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:08</span>
+                            <span class="textContent td" data-bind="text: textContent">确保选择“开发人员模式”。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:11</span>
+                            <span class="textContent td" data-bind="text: textContent">如果系统要求你保存，请保存。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:13</span>
+                            <span class="textContent td" data-bind="text: textContent">我不太确定是否是这样，我不记得具体细节了。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:16</span>
+                            <span class="textContent td" data-bind="text: textContent">不过确保进行了设置。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:18</span>
+                            <span class="textContent td" data-bind="text: textContent">在你首次运行一个应用程序时，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:20</span>
+                            <span class="textContent td" data-bind="text: textContent">如果未进行上述设置，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:23</span>
+                            <span class="textContent td" data-bind="text: textContent">Visual Studio 可能会报错。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:25</span>
+                            <span class="textContent td" data-bind="text: textContent">本视频系列</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:27</span>
+                            <span class="textContent td" data-bind="text: textContent">大概时长 15-16 个小时，内容相当广泛。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:32</span>
+                            <span class="textContent td" data-bind="text: textContent">本培训系列最重要的</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:34</span>
+                            <span class="textContent td" data-bind="text: textContent">新特色之一是我会给你</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:37</span>
+                            <span class="textContent td" data-bind="text: textContent">布置一些称为“挑战”的家庭作业。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:40</span>
+                            <span class="textContent td" data-bind="text: textContent">我会给你所有必要的工具，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:43</span>
+                            <span class="textContent td" data-bind="text: textContent">请你按照我的规格要求构建应用程序，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:46</span>
+                            <span class="textContent td" data-bind="text: textContent">而万一你被难住的话，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:48</span>
+                            <span class="textContent td" data-bind="text: textContent">我会用视频的形式</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:50</span>
+                            <span class="textContent td" data-bind="text: textContent">给出问题的解决方案。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:52</span>
+                            <span class="textContent td" data-bind="text: textContent">这对你是一个非常好的锻炼机会，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:55</span>
+                            <span class="textContent td" data-bind="text: textContent">所以一定要认真去做，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:05:57</span>
+                            <span class="textContent td" data-bind="text: textContent">就像我好说的：</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:00</span>
+                            <span class="textContent td" data-bind="text: textContent">在代码中把你的手玩脏。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:01</span>
+                            <span class="textContent td" data-bind="text: textContent">我们还会建立一个小小的速查表</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:03</span>
+                            <span class="textContent td" data-bind="text: textContent">用于检查目的，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:05</span>
+                            <span class="textContent td" data-bind="text: textContent">然后，在你完成视频系列后，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:07</span>
+                            <span class="textContent td" data-bind="text: textContent">可以参考它。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:08</span>
+                            <span class="textContent td" data-bind="text: textContent">在你开始构建自己的应用程序的过程中，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:10</span>
+                            <span class="textContent td" data-bind="text: textContent">只要是你认为有用的东西，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:12</span>
+                            <span class="textContent td" data-bind="text: textContent">你都可以随时将它添加到速查表上。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:15</span>
+                            <span class="textContent td" data-bind="text: textContent">在系列的后半部分中，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:18</span>
+                            <span class="textContent td" data-bind="text: textContent">我们将构建四个完整的应用程序，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:21</span>
+                            <span class="textContent td" data-bind="text: textContent">其中一个将成为 Windows 应用商店中的商品。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:25</span>
+                            <span class="textContent td" data-bind="text: textContent">这些应用程序将向你展示</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:27</span>
+                            <span class="textContent td" data-bind="text: textContent">如何像一个应用程序开发人员那样思考，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:30</span>
+                            <span class="textContent td" data-bind="text: textContent">从概念直到实施。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:32</span>
+                            <span class="textContent td" data-bind="text: textContent">我们将使用各种不同的技巧、API、</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:37</span>
+                            <span class="textContent td" data-bind="text: textContent">工具和方法来了解</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:39</span>
+                            <span class="textContent td" data-bind="text: textContent">如何与给定设备上的传感器互动，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:42</span>
+                            <span class="textContent td" data-bind="text: textContent">如何访问媒体库，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:46</span>
+                            <span class="textContent td" data-bind="text: textContent">如何访问在线服务，像提供天气更新信息的在线服务，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:50</span>
+                            <span class="textContent td" data-bind="text: textContent">以及允许我们进入娱乐服务的在线服务，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:53</span>
+                            <span class="textContent td" data-bind="text: textContent">像《Marvel comics》（复仇者少年圣战）web API，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:56</span>
+                            <span class="textContent td" data-bind="text: textContent">我们可以找回所有他们的角色，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:06:59</span>
+                            <span class="textContent td" data-bind="text: textContent">浏览它们并浏览插画。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:07:02</span>
+                            <span class="textContent td" data-bind="text: textContent">系列中的大多数视频</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:07:07</span>
+                            <span class="textContent td" data-bind="text: textContent">都有一个关联的 zip 文件，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:07:10</span>
+                            <span class="textContent td" data-bind="text: textContent">其中含有我在录制视频时写的代码。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:07:14</span>
+                            <span class="textContent td" data-bind="text: textContent">在我刚才描述的</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:07:16</span>
+                            <span class="textContent td" data-bind="text: textContent">挑战情形中，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:07:17</span>
+                            <span class="textContent td" data-bind="text: textContent">该文件将包含为了实际完成该挑战，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:07:20</span>
+                            <span class="textContent td" data-bind="text: textContent">你需要的图像以及任何必要的说明</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:07:22</span>
+                            <span class="textContent td" data-bind="text: textContent">和其他文件。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:07:25</span>
+                            <span class="textContent td" data-bind="text: textContent">该文件将在你</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:07:28</span>
+                            <span class="textContent td" data-bind="text: textContent">当前正在观看视频的页面上，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:07:32</span>
+                            <span class="textContent td" data-bind="text: textContent">或在你最初从中下载视频的页面上。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:07:34</span>
+                            <span class="textContent td" data-bind="text: textContent">所以，在评论中提出像</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:07:36</span>
+                            <span class="textContent td" data-bind="text: textContent">“我找不到链接，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:07:38</span>
+                            <span class="textContent td" data-bind="text: textContent">下载链接在哪里？”这种问题前，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:07:40</span>
+                            <span class="textContent td" data-bind="text: textContent">请在你的 web 浏览器中按 Ctrl+f</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:07:46</span>
+                            <span class="textContent td" data-bind="text: textContent">来搜索词条“下载”。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:07:49</span>
+                            <span class="textContent td" data-bind="text: textContent">如果没有下载文件的链接，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:07:51</span>
+                            <span class="textContent td" data-bind="text: textContent">则说明该特定视频没有文件可下载。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:07:56</span>
+                            <span class="textContent td" data-bind="text: textContent">所以，拜托，请先搜索词条“下载”。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:08:00</span>
+                            <span class="textContent td" data-bind="text: textContent">尽管这是一套内容很多的视频，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:08:04</span>
+                            <span class="textContent td" data-bind="text: textContent">要讲 15-16 个小时，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:08:08</span>
+                            <span class="textContent td" data-bind="text: textContent">但这还只是一个粗浅的介绍。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:08:09</span>
+                            <span class="textContent td" data-bind="text: textContent">我不可能将通用 Windows 平台包含的</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:08:12</span>
+                            <span class="textContent td" data-bind="text: textContent">内容全部讲完。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:08:17</span>
+                            <span class="textContent td" data-bind="text: textContent">你应当把它看成只是一个抛砖引玉，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:08:20</span>
+                            <span class="textContent td" data-bind="text: textContent">然后，始终回去查</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:08:21</span>
+                            <span class="textContent td" data-bind="text: textContent">Windows 开发者中心上的 Microsoft 文档，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:08:25</span>
+                            <span class="textContent td" data-bind="text: textContent">了解有关如何最大程度利用</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:08:27</span>
+                            <span class="textContent td" data-bind="text: textContent">通用 Windows 平台的全面解释。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:08:30</span>
+                            <span class="textContent td" data-bind="text: textContent">你可以登录 http://dev.windows.com 进行访问</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:08:36</span>
+                            <span class="textContent td" data-bind="text: textContent">还有，请记住，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:08:38</span>
+                            <span class="textContent td" data-bind="text: textContent">看视频教程系列</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:08:41</span>
+                            <span class="textContent td" data-bind="text: textContent">可不像看电影或电视情境喜剧那么简单轻松。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:08:45</span>
+                            <span class="textContent td" data-bind="text: textContent">你需要做一个积极主动的学习者。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:08:48</span>
+                            <span class="textContent td" data-bind="text: textContent">有些内容甚至整个内容不一定看一遍就能懂，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:08:51</span>
+                            <span class="textContent td" data-bind="text: textContent">你需要翻来覆去地看，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:08:54</span>
+                            <span class="textContent td" data-bind="text: textContent">要不厌其烦。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:08:57</span>
+                            <span class="textContent td" data-bind="text: textContent">或者，你可以在我刚才分享给你的</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:00</span>
+                            <span class="textContent td" data-bind="text: textContent">链接上的 Windows 开发者中心</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:02</span>
+                            <span class="textContent td" data-bind="text: textContent">查看文档，了解有关我们在</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:06</span>
+                            <span class="textContent td" data-bind="text: textContent">视频中讨论的特定主题的更多信息。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:08</span>
+                            <span class="textContent td" data-bind="text: textContent">利用不同形式加深</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:11</span>
+                            <span class="textContent td" data-bind="text: textContent">对同一思想、同一内容的认识和了解，你能学得非常棒。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:16</span>
+                            <span class="textContent td" data-bind="text: textContent">最后，我演示的视频</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:20</span>
+                            <span class="textContent td" data-bind="text: textContent">只是帮助你实现构建</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:23</span>
+                            <span class="textContent td" data-bind="text: textContent">可在 Windows 应用商店出售的应用程序的愿望的一种工具。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:27</span>
+                            <span class="textContent td" data-bind="text: textContent">就我个人而言，如果你对我的课程感兴趣，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:29</span>
+                            <span class="textContent td" data-bind="text: textContent">请访问我，网址为</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:30</span>
+                            <span class="textContent td" data-bind="text: textContent">http://www.LearnVisualStudio.NET</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:36</span>
+                            <span class="textContent td" data-bind="text: textContent">我将竭诚帮助初学者们</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:37</span>
+                            <span class="textContent td" data-bind="text: textContent">获得他们的第一份软件开发工作，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:39</span>
+                            <span class="textContent td" data-bind="text: textContent">在世界上最出色的公司</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:40</span>
+                            <span class="textContent td" data-bind="text: textContent">构建 Windows 和 web 应用程序。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:42</span>
+                            <span class="textContent td" data-bind="text: textContent">这里面有大量的挑战练习，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:44</span>
+                            <span class="textContent td" data-bind="text: textContent">有对使用 Visual Studio、C# 和 ASP.NET 等</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:48</span>
+                            <span class="textContent td" data-bind="text: textContent">编写软件更深刻的见解。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:51</span>
+                            <span class="textContent td" data-bind="text: textContent">最后，我想花点时间来</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:55</span>
+                            <span class="textContent td" data-bind="text: textContent">感谢成百上千看过本系列</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:09:58</span>
+                            <span class="textContent td" data-bind="text: textContent">以往版本的观众们。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:01</span>
+                            <span class="textContent td" data-bind="text: textContent">对于那些抽出时间来告诉 Microsoft</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:04</span>
+                            <span class="textContent td" data-bind="text: textContent">希望 Microsoft 提供更多这种培训的观众，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:07</span>
+                            <span class="textContent td" data-bind="text: textContent">你的反馈促成了这件事的发生，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:10</span>
+                            <span class="textContent td" data-bind="text: textContent">在此深表感谢。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:11</span>
+                            <span class="textContent td" data-bind="text: textContent">我还要感谢 Andy Wigley，他耐心地</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:15</span>
+                            <span class="textContent td" data-bind="text: textContent">回答了我的所有问题并在我制作这一系列过程中</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:18</span>
+                            <span class="textContent td" data-bind="text: textContent">给了我大量宝贵的意见。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:20</span>
+                            <span class="textContent td" data-bind="text: textContent">非常感谢他在我</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:21</span>
+                            <span class="textContent td" data-bind="text: textContent">准备这些课程时提供的指导。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:23</span>
+                            <span class="textContent td" data-bind="text: textContent">最后，本系列主要是在 Clint Rutkas</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:28</span>
+                            <span class="textContent td" data-bind="text: textContent">的倡议下推出的，他几乎参与了</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:31</span>
+                            <span class="textContent td" data-bind="text: textContent">我的所有 Microsoft 视频项目工作。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:34</span>
+                            <span class="textContent td" data-bind="text: textContent">没有 Clint，就没有这一切。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:36</span>
+                            <span class="textContent td" data-bind="text: textContent">你可以通过 Twitter 联系他，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:38</span>
+                            <span class="textContent td" data-bind="text: textContent">告诉他你对他的工作的感谢。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:40</span>
+                            <span class="textContent td" data-bind="text: textContent">好，设置差不多了。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:43</span>
+                            <span class="textContent td" data-bind="text: textContent">你已经让 Visual Studio 2015 在 Windows 10 上运行起来，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:48</span>
+                            <span class="textContent td" data-bind="text: textContent">你已经在“设置”中启用了开发人员模式，</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:51</span>
+                            <span class="textContent td" data-bind="text: textContent">就像刚才我们看到的那样。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:53</span>
+                            <span class="textContent td" data-bind="text: textContent">你一定在猜想下面该做什么了。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:54</span>
+                            <span class="textContent td" data-bind="text: textContent">好，我们马上开始下一个视频。</span>
+                        </li>                
+                    </a>
+                
+                    <a href="javascript:void(0)" role="listitem" data-bind="click: $root.requestGoToVideoPosition">
+                        <li>
+                            <span class="left-row td" data-bind="text: startTime">00:10:56</span>
+                            <span class="textContent td" data-bind="text: textContent">回头见。</span>
+                        </li>                
+                    </a>
+                </ul>
