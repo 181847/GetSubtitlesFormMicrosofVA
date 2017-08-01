@@ -12,83 +12,158 @@ import java.util.ArrayList;
 import java.util.regex.Matcher;
 
 /**
- * å†™è¿™ä¸ªç¨‹åºçš„åˆè¡·æ˜¯ä¸ºäº†æå–å¾®è½¯è™šæ‹Ÿå­¦é™¢ä¸­çš„å­—å¹•ï¼Œ
- * ä½¿ç”¨è¿™ä¸ªç¨‹åºä¹‹å‰ï¼Œéœ€è¦æ‰‹åŠ¨çš„æå–ç½‘é¡µä¸­çš„htmlä¿¡æ¯ï¼Œ
- * é€‰æ‹©å¤åˆ¶å­—å¹•å…ƒç´ ï¼Œç„¶åæ–°å»ºä¸€ä¸ªä»¥â€œ.srtâ€æ ¼å¼ç»“å°¾çš„æ–‡æœ¬æ–‡ä»¶ï¼Œ
- * å°†å¤åˆ¶åˆ°çš„htmlä¿¡æ¯æ”¾è¿›è¿™ä¸ªæ–‡æœ¬æ–‡ä»¶ä¸­ï¼Œ
- * ä½ éœ€è¦å°†è¿™ä¸ªæ–°åˆ›å»ºçš„â€œ*.srtâ€æ–‡ä»¶æ”¾åˆ°æŒ‡å®šçš„æ–‡ä»¶å¤¹ä¸­
- * ï¼ˆæœ¬ç¨‹åºçš„é»˜è®¤æ–‡ä»¶å¤¹åœ¨sourceFolderPathä¸­å®šä¹‰äº†ï¼‰ï¼Œ
- * è¿è¡Œç¨‹åºï¼Œ
- * ç„¶åè¿™ä¸ªæ–‡ä»¶å¤¹ä¸­æ‰€æœ‰ä»¥".srt"ç»“å°¾çš„æ–‡ä»¶éƒ½ä¼šè¢«å¤„ç†ï¼Œ
- * å¹¶ä¸”è‡ªåŠ¨åœ¨sourceFolderPathæ–‡ä»¶å¤¹ä¸­åˆ›å»ºä¸€ä¸ªåä¸ºâ€œoutputâ€çš„å­æ–‡ä»¶å¤¹ï¼Œ
- * æ‰€æœ‰è¢«å¤„ç†è¿‡çš„æ–‡ä»¶éƒ½ä¼šåœ¨è¿™ä¸ªâ€œoutputâ€æ–‡ä»¶å¤¹ä¸­ï¼Œ
- * åå­—ä¸ä¼šæ”¹å˜ã€‚
+ * Ğ´Õâ¸ö³ÌĞòµÄ³õÖÔÊÇÎªÁËÌáÈ¡Î¢ÈíĞéÄâÑ§ÔºÖĞµÄ×ÖÄ»£¬
+ * Ê¹ÓÃÕâ¸ö³ÌĞòÖ®Ç°£¬ĞèÒªÊÖ¶¯µÄÌáÈ¡ÍøÒ³ÖĞµÄhtmlĞÅÏ¢£¬
+ * Ñ¡Ôñ¸´ÖÆ×ÖÄ»ÔªËØ£¬È»ºóĞÂ½¨Ò»¸öÒÔ¡°.srt¡±¸ñÊ½½áÎ²µÄÎÄ±¾ÎÄ¼ş£¬
+ * ½«¸´ÖÆµ½µÄhtmlĞÅÏ¢·Å½øÕâ¸öÎÄ±¾ÎÄ¼şÖĞ£¬
+ * ÄãĞèÒª½«Õâ¸öĞÂ´´½¨µÄ¡°*.srt¡±ÎÄ¼ş·Åµ½Ö¸¶¨µÄÎÄ¼ş¼ĞÖĞ
+ * £¨±¾³ÌĞòµÄÄ¬ÈÏÎÄ¼ş¼ĞÔÚsourceFolderPathÖĞ¶¨ÒåÁË£©£¬
+ * ÔËĞĞ³ÌĞò£¬
+ * È»ºóÕâ¸öÎÄ¼ş¼ĞÖĞËùÓĞÒÔ".srt"½áÎ²µÄÎÄ¼ş¶¼»á±»´¦Àí£¬
+ * ²¢ÇÒ×Ô¶¯ÔÚsourceFolderPathÎÄ¼ş¼ĞÖĞ´´½¨Ò»¸öÃûÎª¡°output¡±µÄ×ÓÎÄ¼ş¼Ğ£¬
+ * ËùÓĞ±»´¦Àí¹ıµÄÎÄ¼ş¶¼»áÔÚÕâ¸ö¡°output¡±ÎÄ¼ş¼ĞÖĞ£¬
+ * Ãû×Ö²»»á¸Ä±ä¡£
  */
 public class GetSubtitleFromSimpleHtml {
 	/**
-	 * å¤„ç†æ–‡ä»¶çš„è·¯å¾„ã€‚
+	 * ´¦ÀíÎÄ¼şµÄÂ·¾¶¡£
 	 */
-	public static String sourceFolderPath = "D:\\titles";
+	protected static String sourceFolderPath = "D:\\tempFile\\ĞÂÊÖÈëÃÅ  Windows 10 ¿ª·¢\\titles";
 	/**
-	 * è¾“å‡ºæ–‡ä»¶å¤¹ï¼Œè¿™ä¸ªè·¯å¾„ç”±sourceFolderPathå†³å®šã€‚
+	 * ÓÃÓÚÊä³ö´¦Àí½á¹ûÎÄ¼şµÄÎÄ¼ş¼ĞÃû³Æ¡£
 	 */
-	public static String outputFolderPath;
+	protected static String outputFolderName = "Subtitles";
 	/**
-	 * æ—¶é—´åŒ¹é…æ­£åˆ™è¡¨è¾¾å¼ã€‚
+	 * Êä³öÎÄ¼ş¼Ğ£¬Õâ¸öÂ·¾¶ÓÉsourceFolderPath¾ö¶¨¡£
+	 */
+	protected static String outputFolderPath;
+	
+	/**
+	 * ÉèÖÃÊä³öÎÄ¼ş¼ĞÃû£¬Èç¹û²»Êä³öµ½Í¬Ò»¸öÎÄ¼ş¼ĞÏÂµÄ»°£¬
+	 * ËùÓĞÊä³öµÄÎÄ¼şÃû»á·ÅÔÚ±»´¦ÀíµÄÎÄ¼ş¼ĞÖ®ÏÂ£¬
+	 * ²¢ÔÚÎÄ¼şÃûÇ°Ãæ¼ÓÉÏÕâ¸öÉèÖÃµÄÎÄ¼ş¼ĞÃû¡£
+	 * @param outputFolderName
+	 * 		±»ÉèÖÃµÄÎÄ¼şÃûÖĞ²»ÄÜ°üº¬ÒÔÏÂ×Ö·û£º<br>
+	 *		\/:*?"<>|
+	 * @return 
+	 * 		ÉèÖÃ³É¹¦·µ»Øtrue£¬·ñÔò·µ»Øfalse¡£
+	 */
+	public static boolean setOutputFolderName(String outputFolderName) {
+		if (outputFolderName.contains("\\")
+				|| outputFolderName.contains("/")
+				|| outputFolderName.contains(":")
+				|| outputFolderName.contains("?")
+				|| outputFolderName.contains("\"")
+				|| outputFolderName.contains("<")
+				|| outputFolderName.contains(">")
+				|| outputFolderName.contains("|")){
+			return false;
+		}
+		GetSubtitleFromSimpleHtml.outputFolderName = outputFolderName;
+		return true;
+	}
+
+	/**
+	 * ÅäÖÃÊÇ·ñ½«´¦ÀíµÄÎÄ¼ş·ÅÔÚ±»´¦ÀíÎÄ¼ş¼ĞµÄÒ»¸öÍ³Ò»µÄÎÄ¼ş¼ĞÖ®ÏÂ¡£
+	 */
+	public static void setOutputToOneFolder(boolean outputToOneFolder) {
+		GetSubtitleFromSimpleHtml.outputToOneFolder = outputToOneFolder;
+	}
+
+	/**
+	 * ÊÇ·ñ½«ËùÓĞµÄ´¦ÀíÎÄ¼şÊä³öµ½Í¬Ò»¸öÎÄ¼ş¼ĞÖĞ£¬
+	 * Èç¹ûÊä³öµ½Í¬Ò»¸öÎÄ¼ş¼Ğ£¬
+	 * ½«»á×Ô¶¯ÔÚsourceFolderPathÎÄ¼ş¼ĞÖĞ´´½¨Ò»¸öoutputFolderNameµÄÎÄ¼ş¼Ğ£¬
+	 * Èç¹û²»Êä³öµ½Í¬Ò»¸öÎÄ¼ş¼Ğ£¬
+	 * Ôò»áÔÚÃ¿Ò»¸öÊä³öÎÄ¼şµÄ¿ªÍ·Ìí¼ÓÉÏoutputFolderNameÕâ¸ö³ÉÔ±±äÁ¿´ú±íµÄ×Ö·û´®¡£
+	 */
+	protected static boolean outputToOneFolder = true;
+	/**
+	 * Ê±¼äÆ¥ÅäÕıÔò±í´ïÊ½¡£
 	 */
 	public static Pattern pTime = Pattern.compile(" *(\\<.+?startTime.+?\\>)(.*)(\\<.+?\\>)");
 	/**
-	 * ç¿»è¯‘åŒ¹é…æ­£åˆ™è¡¨è¾¾å¼ã€‚
+	 * ·­ÒëÆ¥ÅäÕıÔò±í´ïÊ½¡£
 	 */
 	public static Pattern pTransition = Pattern.compile(" *(\\<.+?textContent.+?\\>)(.*)(\\<.+?\\>)");
 	
-	public static void main(String[] args) throws IOException {
+	/**
+	 * µ÷ÓÃµÄÈë¿Ú¡£
+	 * @param folderPath
+	 * 		ÏëÒª´¦ÀíµÄÎÄ¼şÂ·¾¶¡£
+	 */
+	public static void DealWithTheFolder(String folderPath){
+		try{
+			doTheWork(folderPath);
+		} catch (Exception e){
+			throw new RuntimeException("´¦ÀíÎÄ¼ş¼ĞÖĞµÄ×ÖÄ»ÎÄ¼ş³ö´í¡£");
+		}
+	}
+	
+	protected static void doTheWork(String folderPath) throws IOException {
+		sourceFolderPath = folderPath;
 		File sourceFolder = new File(sourceFolderPath);
 		
 		if ( ! sourceFolder.exists()){
-			System.out.println("å¤„ç†æ–‡ä»¶å¤¹ä¸å­˜åœ¨ï¼Œè¯·åˆ›å»ºæ–‡ä»¶å¤¹ï¼š" + sourceFolderPath);
-			throw new RuntimeException("æºè·¯å¾„ä¸å­˜åœ¨ã€‚");
+			System.out.println("´¦ÀíÎÄ¼ş¼Ğ²»´æÔÚ£¬Çë´´½¨ÎÄ¼ş¼Ğ£º" + sourceFolderPath);
+			throw new RuntimeException("Ô´Â·¾¶²»´æÔÚ¡£");
 		}
 		
 		if ( sourceFolder.isFile()){
-			System.out.println("ç›®æ ‡è·¯å¾„ä¸æ˜¯ä¸€ä¸ªæ–‡ä»¶å¤¹ï¼Œè¯·ç¡®ä¿ç›®æ ‡è·¯å¾„æ˜¯ä¸€ä¸ªæ–‡ä»¶å¤¹ï¼Œå½“å‰çš„ç›®æ ‡è·¯å¾„ï¼š" + sourceFolderPath);
-			throw new RuntimeException("æºè·¯å¾„ä¸æ˜¯æ–‡ä»¶å¤¹ã€‚");
+			System.out.println("Ä¿±êÂ·¾¶²»ÊÇÒ»¸öÎÄ¼ş¼Ğ£¬ÇëÈ·±£Ä¿±êÂ·¾¶ÊÇÒ»¸öÎÄ¼ş¼Ğ£¬µ±Ç°µÄÄ¿±êÂ·¾¶£º" + sourceFolderPath);
+			throw new RuntimeException("Ô´Â·¾¶²»ÊÇÎÄ¼ş¼Ğ¡£");
 		}
 		
-		//åˆ›å»ºè¾“å‡ºæ–‡ä»¶å¤¹ã€‚
-		outputFolderPath = sourceFolderPath + "\\output";
-		File outputFolder = new File(outputFolderPath);
-		outputFolder.mkdirs();
+		if (outputToOneFolder){
+			//´´½¨Êä³öÎÄ¼ş¼Ğ¡£
+			outputFolderPath = sourceFolderPath + "\\" + outputFolderName;
+			File outputFolder = new File(outputFolderPath);
+			outputFolder.mkdirs();
+		}
 		
-		//è·å–æ‰€æœ‰çš„å­æ–‡ä»¶ã€‚
+		//»ñÈ¡ËùÓĞµÄ×ÓÎÄ¼ş¡£
 		File[] unSolvedSubtitles = sourceFolder.listFiles();
 		
-		//å¯¹æ¯ä¸€ä¸ªå­æ–‡ä»¶è¿›è¡Œæ“ä½œã€‚
+		//¶ÔÃ¿Ò»¸ö×ÓÎÄ¼ş½øĞĞ²Ù×÷¡£
 		for (File subFile : unSolvedSubtitles){
-			//è¦æ±‚å­æ–‡ä»¶å¿…é¡»æ˜¯æ–‡ä»¶ç±»å‹ï¼Œ
-			//è€Œä¸”æ–‡ä»¶åå¿…é¡»ä»¥".srt"ç»“å°¾ã€‚
+			//ÒªÇó×ÓÎÄ¼ş±ØĞëÊÇÎÄ¼şÀàĞÍ£¬
+			//¶øÇÒÎÄ¼şÃû±ØĞëÒÔ".srt"½áÎ²¡£
 			if (subFile.isFile() && subFile.getName().endsWith(".srt")){
 				OutputSubtitle(subFile);
 			}
 		}
+		
+		System.out.println("´¦Àí½áÊø¡£");
 	}
 	
 	/**
-	 * ä»ç›®æ ‡æ–‡ä»¶è¯»å–ä¿¡æ¯ï¼Œè¾“å‡ºä¸€ä¸ªç¬¦åˆsrtæ ¼å¼çš„å­—å¹•æ–‡ä»¶ã€‚
+	 * ´ÓÄ¿±êÎÄ¼ş¶ÁÈ¡ĞÅÏ¢£¬Êä³öÒ»¸ö·ûºÏsrt¸ñÊ½µÄ×ÖÄ»ÎÄ¼ş¡£
 	 * @param unSolvedSubtitle
-	 * 		ä»htmlä¸­æå–çš„å­—å¹•æ ¼å¼ã€‚
+	 * 		´ÓhtmlÖĞÌáÈ¡µÄ×ÖÄ»¸ñÊ½¡£
 	 * @throws IOException
 	 */
-	public static void OutputSubtitle(File unSolvedSubtitle) throws IOException{
-		//åˆ›å»ºè¾“å‡ºæ–‡ä»¶ã€‚
-		File newSubtitle = new File(outputFolderPath + "//" + unSolvedSubtitle.getName());
+	protected static void OutputSubtitle(File unSolvedSubtitle) throws IOException{
+		//´´½¨Êä³öÎÄ¼ş¡£
+		File newSubtitle;
+		if (outputToOneFolder){
+			//Èç¹ûÊä³öµ½Í³Ò»µÄÎÄ¼ş¼ĞÏÂ£¬
+			//ĞèÒªÔÚÃû×ÖÇ°¼ÓÉÏ¸¸ÎÄ¼ş¼ĞÂ·¾¶¡£
+			newSubtitle = new File(outputFolderPath + "\\" + unSolvedSubtitle.getName());
+		} else {
+			//Èç¹û²»Êä³öµ½Í³Ò»µÄÎÄ¼ş¼ĞÏÂ£¬
+			//Ö»ÔÚÊä³öÎÄ¼ş¼ĞµÄÃû×ÖÇ°Ìí¼ÓÒ»¸öÇ°×º¡£
+			newSubtitle = new File(
+					unSolvedSubtitle.getParent() + "\\" 	//¸¸Â·¾¶¡£
+					+ outputFolderName + 				//ĞÂÎÄ¼şÃûÇ°×º¡£
+					unSolvedSubtitle.getName());		//¾ÉÎÄ¼şÃû¡£
+		}
 		newSubtitle.createNewFile();
 		
-		//ç”¨äºå­˜å‚¨å­—å¹•ï¼Œå¶æ•°è¡Œå­˜å‚¨æ—¶é—´ï¼Œå¥‡æ•°è¡Œå­˜å‚¨æ–‡æœ¬ã€‚
+		//ÓÃÓÚ´æ´¢×ÖÄ»£¬Å¼ÊıĞĞ´æ´¢Ê±¼ä£¬ÆæÊıĞĞ´æ´¢ÎÄ±¾¡£
 		ArrayList<String> pureSubtitles = new ArrayList<String>();
-		//ç”¨äºé™åˆ¶è¡Œæ•°çš„è®¡æ•°å™¨ï¼Œé˜²æ­¢pureSubtitlesä¸­é¡ºåºå‡ºç°æ··ä¹±ï¼Œ
-		//è¦æ±‚æ·»åŠ æ—¶é—´ä¿¡æ¯æ—¶ï¼Œä¿è¯lineRestrict ä¸º å¶æ•°ï¼Œ
-		//æ·»åŠ æ–‡æœ¬ä¿¡æ¯æ—¶ï¼ŒlineRestrictä¸ºå¥‡æ•°ã€‚
+		//ÓÃÓÚÏŞÖÆĞĞÊıµÄ¼ÆÊıÆ÷£¬·ÀÖ¹pureSubtitlesÖĞË³Ğò³öÏÖ»ìÂÒ£¬
+		//ÒªÇóÌí¼ÓÊ±¼äĞÅÏ¢Ê±£¬±£Ö¤lineRestrict Îª Å¼Êı£¬
+		//Ìí¼ÓÎÄ±¾ĞÅÏ¢Ê±£¬lineRestrictÎªÆæÊı¡£
 		int lineRestrict = 0;
 		
 		boolean occurredError = false;
@@ -99,101 +174,101 @@ public class GetSubtitleFromSimpleHtml {
 			
 			String line = "";
 			
-			//è¯»å–æ¯ä¸€è¡Œã€‚
+			//¶ÁÈ¡Ã¿Ò»ĞĞ¡£
 			while((line = usubReader.readLine() ) != null){
-				//ç”¨æ—¶é—´æ­£åˆ™è¡¨è¾¾å¼æå–æ—¶é—´ä¿¡æ¯ã€‚
+				//ÓÃÊ±¼äÕıÔò±í´ïÊ½ÌáÈ¡Ê±¼äĞÅÏ¢¡£
 				Matcher matcher = pTime.matcher(line);
 				if (matcher.find()){
 					if (lineRestrict % 2 != 0){
-						System.out.println("æ–‡ä»¶æ ¼å¼é”™è¯¯ï¼Œæ—¶é—´ä¿¡æ¯ä¸èƒ½æ­£å¸¸æ·»åŠ ã€‚");
-						//æ ‡å¿—é”™è¯¯ï¼Œé˜²æ­¢å†™å…¥æ–‡ä»¶ã€‚
+						System.out.println("ÎÄ¼ş¸ñÊ½´íÎó£¬Ê±¼äĞÅÏ¢²»ÄÜÕı³£Ìí¼Ó¡£");
+						//±êÖ¾´íÎó£¬·ÀÖ¹Ğ´ÈëÎÄ¼ş¡£
 						occurredError = true;
 						break;
 					}
-					//å­˜å‚¨æ—¶é—´ä¿¡æ¯ã€‚
+					//´æ´¢Ê±¼äĞÅÏ¢¡£
 					pureSubtitles.add(matcher.group(2));
-					//è¡Œè®¡æ•°é™åˆ¶åŠ ä¸€ã€‚
+					//ĞĞ¼ÆÊıÏŞÖÆ¼ÓÒ»¡£
 					++lineRestrict;
-					//æ‰§è¡Œä¸‹ä¸€æ¬¡å¾ªç¯ã€‚
+					//Ö´ĞĞÏÂÒ»´ÎÑ­»·¡£
 					continue;
 				}
 
-				//ç”¨æ–‡æœ¬æ­£åˆ™è¡¨è¾¾å¼æå–æ–‡æœ¬ä¿¡æ¯ã€‚
+				//ÓÃÎÄ±¾ÕıÔò±í´ïÊ½ÌáÈ¡ÎÄ±¾ĞÅÏ¢¡£
 				matcher = pTransition.matcher(line);
 				if (matcher.find()){
 					if (lineRestrict % 2 != 1){
-						System.out.println("æ–‡ä»¶æ ¼å¼é”™è¯¯ï¼Œå­—å¹•æ–‡æœ¬ä¿¡æ¯ä¸èƒ½æ­£å¸¸æ·»åŠ ã€‚");
-						//æ ‡å¿—é”™è¯¯ï¼Œé˜²æ­¢å†™å…¥æ–‡ä»¶ã€‚
+						System.out.println("ÎÄ¼ş¸ñÊ½´íÎó£¬×ÖÄ»ÎÄ±¾ĞÅÏ¢²»ÄÜÕı³£Ìí¼Ó¡£");
+						//±êÖ¾´íÎó£¬·ÀÖ¹Ğ´ÈëÎÄ¼ş¡£
 						occurredError = true;
 						break;
 					}
 					pureSubtitles.add(matcher.group(2));
-					//è¡Œè®¡æ•°é™åˆ¶åŠ ä¸€ã€‚
+					//ĞĞ¼ÆÊıÏŞÖÆ¼ÓÒ»¡£
 					++lineRestrict;
 				}
 			}
 			
-			//æ£€æŸ¥æ˜¯å¦å‘ç”Ÿäº†é”™è¯¯ã€‚
+			//¼ì²éÊÇ·ñ·¢ÉúÁË´íÎó¡£
 			if ( !occurredError){
-				//æ²¡æœ‰å‘ç”Ÿé”™è¯¯ï¼Œå‘ç›®æ ‡æ–‡ä»¶å†™å…¥å­—å¹•ä¿¡æ¯ã€‚
+				//Ã»ÓĞ·¢Éú´íÎó£¬ÏòÄ¿±êÎÄ¼şĞ´Èë×ÖÄ»ĞÅÏ¢¡£
 				WriteOutputFile(pureSubtitles, newSubtitle);
 			}
 			
 			usubReader.close();
 			
 		} catch (FileNotFoundException e) {
-			System.out.println("æå–å­—å¹•æ–‡ä»¶å‡ºé”™ï¼Œè¯·æ£€æŸ¥è¿™ä¸ªçš„æ–‡ä»¶ï¼š" + unSolvedSubtitle.getPath());
+			System.out.println("ÌáÈ¡×ÖÄ»ÎÄ¼ş³ö´í£¬Çë¼ì²éÕâ¸öµÄÎÄ¼ş£º" + unSolvedSubtitle.getPath());
 			e.printStackTrace();
 		}
 	}
 
 	/**
-	 * å‘ç›®æ ‡æ–‡ä»¶å†™å…¥å­—å¹•ä¿¡æ¯ã€‚
+	 * ÏòÄ¿±êÎÄ¼şĞ´Èë×ÖÄ»ĞÅÏ¢¡£
 	 * @param pureSubtitles
-	 * 		å¶æ•°è¡Œä¸ºæ—¶é—´ä¿¡æ¯æ²¡æœ‰æœ«å°¾çš„æ¯«ç§’ä¿¡æ¯ï¼Œ
-	 * 		å¥‡æ•°è¡Œä¸ºå­—å¹•ä¿¡æ¯ï¼Œå­—å¹•ä¿¡æ¯æ²¡æœ‰æ¢è¡Œã€‚
+	 * 		Å¼ÊıĞĞÎªÊ±¼äĞÅÏ¢Ã»ÓĞÄ©Î²µÄºÁÃëĞÅÏ¢£¬
+	 * 		ÆæÊıĞĞÎª×ÖÄ»ĞÅÏ¢£¬×ÖÄ»ĞÅÏ¢Ã»ÓĞ»»ĞĞ¡£
 	 * @param newSubtitle
-	 * 		ç›®æ ‡å†™å…¥æ–‡ä»¶ï¼Œè¦æ±‚æ–‡ä»¶å¿…é¡»å­˜åœ¨ã€‚
+	 * 		Ä¿±êĞ´ÈëÎÄ¼ş£¬ÒªÇóÎÄ¼ş±ØĞë´æÔÚ¡£
 	 * @throws IOException 
 	 */
 	private static void WriteOutputFile(ArrayList<String> pureSubtitles, File newSubtitle) throws IOException {
 		FileWriter outputFile = new FileWriter(newSubtitle);
-		//ä¸€ä¸ªå­—å¹•çš„æ€»ä¿¡æ¯ï¼Œ
-		//åŒ…æ‹¬ä¸€ä¸ªåºå·ï¼Œä¸€ä¸ªæ—¶é—´æ®µï¼Œä¸€ä¸ªå­—å¹•æ–‡æœ¬ã€‚
+		//Ò»¸ö×ÖÄ»µÄ×ÜĞÅÏ¢£¬
+		//°üÀ¨Ò»¸öĞòºÅ£¬Ò»¸öÊ±¼ä¶Î£¬Ò»¸ö×ÖÄ»ÎÄ±¾¡£
 		String oneUnit;
 		
-		//åˆ°æŒ‡å®šæ—¶é—´å­—å¹•çš„åç§»é‡ã€‚
+		//µ½Ö¸¶¨Ê±¼ä×ÖÄ»µÄÆ«ÒÆÁ¿¡£
 		int offset;
 		
 		String startTime;
 		String endTime;
 		String text;
 		
-		//sizeå¿…é¡»ä¸ºä¸€ä¸ªå¶æ•°ã€‚
+		//size±ØĞëÎªÒ»¸öÅ¼Êı¡£
 		int size = pureSubtitles.size();
 		
-		//iæ¯æ¬¡å¢åŠ äºŒï¼Œå› ä¸ºä¸€è¡Œæ˜¯æ—¶é—´ï¼Œä¸€è¡Œæ˜¯å­—å¹•ã€‚
+		//iÃ¿´ÎÔö¼Ó¶ş£¬ÒòÎªÒ»ĞĞÊÇÊ±¼ä£¬Ò»ĞĞÊÇ×ÖÄ»¡£
 		for (int i = 1; i * 2 <= size; ++i){
 			offset = (i - 1) * 2;
 			
 			startTime = pureSubtitles.get(offset);
 			text = pureSubtitles.get(offset + 1);
 			if (i * 2 == size){
-				//å¦‚æœåˆ°è¾¾äº†æœ€åä¸€ä¸ªå•å…ƒå­—å¹•ã€‚
+				//Èç¹ûµ½´ïÁË×îºóÒ»¸öµ¥Ôª×ÖÄ»¡£
 				char[] time = startTime.toCharArray();
-				//å°†ç¬¬ä¸€ä¸ªæ—¶é—´è®¾ä¸º9ï¼Œå°è¯•å°†æœ€åä¸€ä¸ªå­—å¹•çš„æ—¶é—´æ— é™å»¶åã€‚
+				//½«µÚÒ»¸öÊ±¼äÉèÎª9£¬³¢ÊÔ½«×îºóÒ»¸ö×ÖÄ»µÄÊ±¼äÎŞÏŞÑÓºó¡£
 				time[0] = '9';
 				endTime = String.valueOf(time);
 			} else {
-				//å•å…ƒå­—å¹•ç»“æŸæ—¶é—´ä¸ºä¸‹ä¸€ä¸ªå­—å¹•å¼€å§‹æ—¶é—´ã€‚
+				//µ¥Ôª×ÖÄ»½áÊøÊ±¼äÎªÏÂÒ»¸ö×ÖÄ»¿ªÊ¼Ê±¼ä¡£
 				endTime = pureSubtitles.get(offset + 2);
 			}
 			
-			oneUnit = i + "\n"		//åºå·ã€‚
-					//å¼€å§‹æ—¶é—´		 å¼€å§‹çš„å¾®ç§’æ—¶é—´	ç®­å¤´		ç»“æŸæ—¶é—´	ç»“æŸçš„å¾®ç§’æ—¶é—´	
-					+ startTime + ",000" + " --> " + endTime + ",000" + "\n"		//æ—¶é—´é—´éš”ã€‚
-					+ text			//å­—å¹•æ–‡å­—ã€‚
-					+ "\n\n";		//æ¢ä¸¤è¡Œã€‚
+			oneUnit = i + "\n"		//ĞòºÅ¡£
+					//¿ªÊ¼Ê±¼ä		 ¿ªÊ¼µÄÎ¢ÃëÊ±¼ä	¼ıÍ·		½áÊøÊ±¼ä	½áÊøµÄÎ¢ÃëÊ±¼ä	
+					+ startTime + ",000" + " --> " + endTime + ",000" + "\n"		//Ê±¼ä¼ä¸ô¡£
+					+ text			//×ÖÄ»ÎÄ×Ö¡£
+					+ "\n\n";		//»»Á½ĞĞ¡£
 			
 			outputFile.write(oneUnit);
 		}
